@@ -2,7 +2,7 @@
 # What does this script do: Runs the erase_flash, write_flash, flash_id, and copy code to pyboard scripts available in the esptool.py script.
 # Notes: The current version of the script hardcodes the PORT, BAUD, FIRMWARE, and location of my custom code. This was done while quickly scripting this script for my own purposes. This is not good practice and will be updated for better maintability in the future as I need it.
 # How to use: 1) Using Terminal navigate to the folder where you have your code folder, firmware binary, and your Python3 venv that has the micropython library available. 2) Make sure your ESP32 board is connected via micro usb 3) Run the script using the following command: python3 erase_and_flash_pyboard.py.
-# 
+
 import subprocess
 import time
 
